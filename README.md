@@ -1,72 +1,42 @@
-# piano-project
+# 🎹 Playable Piano
 
-This template should help get you started developing with Vue 3 in Vite.
+Интерактивное пианино, написанное на **Vue 3**. Поддерживает воспроизведение нот, регулировку громкости и отображение клавиш. Отлично подойдёт для практики фронтенда и работы с аудио в браузере.
 
-## Recommended IDE Setup
+![image](https://github.com/user-attachments/assets/1fc33351-eb8a-4c8b-8236-166861b5d0e6)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
+## 🚀 Демо
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+> *Добавь ссылку на GitHub Pages или Netlify, если есть опубликованная версия.*
 
-## Customize configuration
+## 🔧 Возможности
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- ⌨️ Управление нотами с клавиатуры и мышкой  
+- 🎵 Реальное воспроизведение звуков пианино  
+- 🔊 Регулятор громкости  
+- 🔘 Переключатель отображения подписей клавиш  
+- 🌄 Красивый фон
 
-## Project Setup
+## 🛠️ Технологии
 
-```sh
+- [Vue 3 (Composition API)](https://vuejs.org/)
+- Vite
+- HTML5 Audio API
+- SCSS/CSS
+
+## 📦 Установка и запуск
+
+```bash
+# 1. Клонируй репозиторий
+git clone https://github.com/твой-профиль/playable-piano.git
+
+# 2. Перейди в папку проекта
+cd playable-piano
+
+# 3. Установи зависимости
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 4. Запусти проект
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-внешний вид
-# piano-project
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-внешний вид
-![image](https://github.com/user-attachments/assets/d916cb03-e57b-4426-969a-ce686536839f)
 
